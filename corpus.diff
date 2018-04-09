@@ -1,0 +1,2514 @@
+diff --git a/CADET_00001/Makefile b/CADET_00001/Makefile
+index fdc8baa..cec8914 100755
+--- a/CADET_00001/Makefile
++++ b/CADET_00001/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = CADET
+ SERVICE_ID = 00001
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CADET_00003/Makefile b/CADET_00003/Makefile
+index 9578c71..1930194 100755
+--- a/CADET_00003/Makefile
++++ b/CADET_00003/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00003
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00001/Makefile b/CROMU_00001/Makefile
+index 178f88e..f2efbfc 100644
+--- a/CROMU_00001/Makefile
++++ b/CROMU_00001/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00001
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00002/Makefile b/CROMU_00002/Makefile
+index d829767..7124d8e 100644
+--- a/CROMU_00002/Makefile
++++ b/CROMU_00002/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00002
+ CFLAGS     = -O0 -g -Wall -Werror -Wno-overlength-strings -Wno-packed -mfpmath=sse -msse2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00003/Makefile b/CROMU_00003/Makefile
+index 945e530..38ac723 100644
+--- a/CROMU_00003/Makefile
++++ b/CROMU_00003/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00003
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00004/Makefile b/CROMU_00004/Makefile
+index 5edc184..65c582d 100644
+--- a/CROMU_00004/Makefile
++++ b/CROMU_00004/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00004
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00005/Makefile b/CROMU_00005/Makefile
+index 99a47a0..80a5af9 100644
+--- a/CROMU_00005/Makefile
++++ b/CROMU_00005/Makefile
+@@ -6,4 +6,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_TESTING_COUNT = 0
+ POLLS_RELEASE_COUNT = 1000
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00006/Makefile b/CROMU_00006/Makefile
+index aef51c8..d0559d7 100644
+--- a/CROMU_00006/Makefile
++++ b/CROMU_00006/Makefile
+@@ -7,4 +7,4 @@ NO_STRIP   = 1
+ POLLS_RELEASE_MAX_DEPTH=20
+ POLLS_RELEASE_SEED=40
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00007/Makefile b/CROMU_00007/Makefile
+index d255e61..fac21f2 100644
+--- a/CROMU_00007/Makefile
++++ b/CROMU_00007/Makefile
+@@ -7,4 +7,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 100
+ POLLS_TESTING_COUNT = 900
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00008/Makefile b/CROMU_00008/Makefile
+index 90c3508..192cc65 100644
+--- a/CROMU_00008/Makefile
++++ b/CROMU_00008/Makefile
+@@ -5,4 +5,4 @@ SERVICE_ID = 00008
+ 
+ CFLAGS      = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00009/Makefile b/CROMU_00009/Makefile
+index 776963c..41849aa 100644
+--- a/CROMU_00009/Makefile
++++ b/CROMU_00009/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00009
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00010/Makefile b/CROMU_00010/Makefile
+index 22dc170..11d1ba3 100644
+--- a/CROMU_00010/Makefile
++++ b/CROMU_00010/Makefile
+@@ -3,4 +3,4 @@ POLLS_TESTING_SEED= 596837685
+ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00010
+ CFLAGS      = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00011/Makefile b/CROMU_00011/Makefile
+index 88cf2ef..5018ff2 100644
+--- a/CROMU_00011/Makefile
++++ b/CROMU_00011/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00011
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00012/Makefile b/CROMU_00012/Makefile
+index 3d60e50..56ea7e1 100644
+--- a/CROMU_00012/Makefile
++++ b/CROMU_00012/Makefile
+@@ -5,4 +5,4 @@ NO_STRIP = 1
+ POLLS_RELEASE_SEED=388550987
+ POLLS_TESTING_SEED=-803034210
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00014/Makefile b/CROMU_00014/Makefile
+index 2e24eed..9f2006a 100755
+--- a/CROMU_00014/Makefile
++++ b/CROMU_00014/Makefile
+@@ -3,4 +3,4 @@ POLLS_TESTING_SEED= 104578085
+ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00014
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00015/Makefile b/CROMU_00015/Makefile
+index d7e90b8..6584652 100644
+--- a/CROMU_00015/Makefile
++++ b/CROMU_00015/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED=594936938
+ POLLS_TESTING_SEED=-1420921681
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00016/Makefile b/CROMU_00016/Makefile
+index fd0d03c..c2ab39e 100644
+--- a/CROMU_00016/Makefile
++++ b/CROMU_00016/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00016
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00017/Makefile b/CROMU_00017/Makefile
+index 5d3af56..35db689 100644
+--- a/CROMU_00017/Makefile
++++ b/CROMU_00017/Makefile
+@@ -7,4 +7,4 @@ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_MAX_DEPTH = 20
+ POLLS_RELEASE_COUNT = 0
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00018/Makefile b/CROMU_00018/Makefile
+index 2a24e8d..61da6e7 100644
+--- a/CROMU_00018/Makefile
++++ b/CROMU_00018/Makefile
+@@ -6,4 +6,4 @@ POLLS_TESTING_COUNT = 1000
+ 
+ CFLAGS      = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00019/Makefile b/CROMU_00019/Makefile
+index 1a9e242..b4b82eb 100644
+--- a/CROMU_00019/Makefile
++++ b/CROMU_00019/Makefile
+@@ -7,4 +7,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 300
+ POLLS_TESTING_COUNT = 700
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00020/Makefile b/CROMU_00020/Makefile
+index 803563b..2d740ab 100644
+--- a/CROMU_00020/Makefile
++++ b/CROMU_00020/Makefile
+@@ -5,4 +5,4 @@ SERVICE_ID = 00020
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ NO_STRIP   = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00021/Makefile b/CROMU_00021/Makefile
+index 609de90..0f1f5df 100644
+--- a/CROMU_00021/Makefile
++++ b/CROMU_00021/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00021
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00022/Makefile b/CROMU_00022/Makefile
+index ac6c7b2..f5802ac 100644
+--- a/CROMU_00022/Makefile
++++ b/CROMU_00022/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00022
+ CFLAGS      = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00023/Makefile b/CROMU_00023/Makefile
+index cc94e0a..c9e01fa 100644
+--- a/CROMU_00023/Makefile
++++ b/CROMU_00023/Makefile
+@@ -7,4 +7,4 @@ POLLS_TESTING_COUNT = 1000
+ CXXFLAGS    = -fno-exceptions -fno-rtti
+ CFLAGS      = -O0 -g -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00024/Makefile b/CROMU_00024/Makefile
+index 3fa3904..cd325c7 100755
+--- a/CROMU_00024/Makefile
++++ b/CROMU_00024/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00024
+ POLLS_RELEASE_COUNT=1000
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00025/Makefile b/CROMU_00025/Makefile
+index eaeafe3..da20cf7 100644
+--- a/CROMU_00025/Makefile
++++ b/CROMU_00025/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00025
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00026/Makefile b/CROMU_00026/Makefile
+index 399ec5a..ec00212 100644
+--- a/CROMU_00026/Makefile
++++ b/CROMU_00026/Makefile
+@@ -7,4 +7,4 @@ POLLS_TESTING_COUNT = 1000
+ CXXFLAGS    = -g -fno-exceptions -fno-rtti
+ CFLAGS      = -g -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00027/Makefile b/CROMU_00027/Makefile
+index 6546245..1ab1a4f 100644
+--- a/CROMU_00027/Makefile
++++ b/CROMU_00027/Makefile
+@@ -6,4 +6,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+ POLLS_RELEASE_COUNT = 300
+ POLLS_TESTING_COUNT = 700
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00028/Makefile b/CROMU_00028/Makefile
+index d7c9dc8..61a917d 100644
+--- a/CROMU_00028/Makefile
++++ b/CROMU_00028/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00028
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -fblocks
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00029/Makefile b/CROMU_00029/Makefile
+index d4ff5c6..3d85488 100644
+--- a/CROMU_00029/Makefile
++++ b/CROMU_00029/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED=-773946578
+ POLLS_TESTING_SEED=-1906672637
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00030/Makefile b/CROMU_00030/Makefile
+index eee9ec9..183036a 100644
+--- a/CROMU_00030/Makefile
++++ b/CROMU_00030/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00030
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00031/Makefile b/CROMU_00031/Makefile
+index 585a198..ebeed90 100644
+--- a/CROMU_00031/Makefile
++++ b/CROMU_00031/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00031
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00032/Makefile b/CROMU_00032/Makefile
+index fe94013..34700cf 100644
+--- a/CROMU_00032/Makefile
++++ b/CROMU_00032/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00032
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00033/Makefile b/CROMU_00033/Makefile
+index dd96021..2afc6e1 100644
+--- a/CROMU_00033/Makefile
++++ b/CROMU_00033/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00033
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00034/Makefile b/CROMU_00034/Makefile
+index b1e1181..c25aadf 100644
+--- a/CROMU_00034/Makefile
++++ b/CROMU_00034/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00034
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00035/Makefile b/CROMU_00035/Makefile
+index 4948592..9d61bd4 100644
+--- a/CROMU_00035/Makefile
++++ b/CROMU_00035/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00035
+ CFLAGS      = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00036/Makefile b/CROMU_00036/Makefile
+index 2732a11..7196959 100644
+--- a/CROMU_00036/Makefile
++++ b/CROMU_00036/Makefile
+@@ -7,4 +7,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 50
+ POLLS_TESTING_COUNT = 950
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00037/Makefile b/CROMU_00037/Makefile
+index 78d1c51..e870ab4 100644
+--- a/CROMU_00037/Makefile
++++ b/CROMU_00037/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00037
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00038/Makefile b/CROMU_00038/Makefile
+index 34ed8aa..e0b686a 100755
+--- a/CROMU_00038/Makefile
++++ b/CROMU_00038/Makefile
+@@ -3,4 +3,4 @@ POLLS_TESTING_SEED= -591896626
+ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00038
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00039/Makefile b/CROMU_00039/Makefile
+index 2e6e1cf..fec28f6 100644
+--- a/CROMU_00039/Makefile
++++ b/CROMU_00039/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00039
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00040/Makefile b/CROMU_00040/Makefile
+index 27a7328..a03ee07 100755
+--- a/CROMU_00040/Makefile
++++ b/CROMU_00040/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00040
+ POLLS_RELEASE_COUNT=1000
+ POLLS_RELEASE_SEED=2555627392
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00041/Makefile b/CROMU_00041/Makefile
+index 2bb8d58..1522a0f 100644
+--- a/CROMU_00041/Makefile
++++ b/CROMU_00041/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00041
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00042/Makefile b/CROMU_00042/Makefile
+index 754d0d5..707f5a4 100644
+--- a/CROMU_00042/Makefile
++++ b/CROMU_00042/Makefile
+@@ -8,4 +8,4 @@ NO_STRIP=1
+ CXXFLAGS    = -fno-exceptions -fno-rtti
+ CFLAGS      = -O0 -g -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00043/Makefile b/CROMU_00043/Makefile
+index b3408fc..0e69d46 100644
+--- a/CROMU_00043/Makefile
++++ b/CROMU_00043/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00043
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00044/Makefile b/CROMU_00044/Makefile
+index d09478d..b5f0771 100644
+--- a/CROMU_00044/Makefile
++++ b/CROMU_00044/Makefile
+@@ -7,4 +7,4 @@ POLLS_TESTING_COUNT = 1000
+ CXXFLAGS    = -fno-exceptions -fno-rtti
+ CFLAGS      = -O0 -g -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00046/Makefile b/CROMU_00046/Makefile
+index f283268..75367e5 100644
+--- a/CROMU_00046/Makefile
++++ b/CROMU_00046/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00046
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00047/Makefile b/CROMU_00047/Makefile
+index ab535cd..1b94126 100644
+--- a/CROMU_00047/Makefile
++++ b/CROMU_00047/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00047
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00048/Makefile b/CROMU_00048/Makefile
+index 2086104..6fa362d 100644
+--- a/CROMU_00048/Makefile
++++ b/CROMU_00048/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00048
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -mstack-alignment=3
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00051/Makefile b/CROMU_00051/Makefile
+index b984c2a..ca5ebbe 100644
+--- a/CROMU_00051/Makefile
++++ b/CROMU_00051/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00051
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00054/Makefile b/CROMU_00054/Makefile
+index 27e337c..1caee35 100644
+--- a/CROMU_00054/Makefile
++++ b/CROMU_00054/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 1
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS   = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00055/Makefile b/CROMU_00055/Makefile
+index 65ad422..878fcc4 100644
+--- a/CROMU_00055/Makefile
++++ b/CROMU_00055/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00055
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00057/Makefile b/CROMU_00057/Makefile
+index c203c70..cc42151 100644
+--- a/CROMU_00057/Makefile
++++ b/CROMU_00057/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00057
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00058/Makefile b/CROMU_00058/Makefile
+index 0070a76..18be019 100644
+--- a/CROMU_00058/Makefile
++++ b/CROMU_00058/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ NO_STRIP = 1
+ VULN_COUNT=1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00061/Makefile b/CROMU_00061/Makefile
+index 0e1119d..e28f8fa 100644
+--- a/CROMU_00061/Makefile
++++ b/CROMU_00061/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 1
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS   = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00063/Makefile b/CROMU_00063/Makefile
+index d345810..84ae5a3 100644
+--- a/CROMU_00063/Makefile
++++ b/CROMU_00063/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00063
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed 
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00064/Makefile b/CROMU_00064/Makefile
+index 9bc9dbb..2a2aada 100644
+--- a/CROMU_00064/Makefile
++++ b/CROMU_00064/Makefile
+@@ -6,4 +6,4 @@ VULN_COUNT = 1
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00065/Makefile b/CROMU_00065/Makefile
+index 978ac83..a3c3078 100644
+--- a/CROMU_00065/Makefile
++++ b/CROMU_00065/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00065
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -DENABLE_BUFFERED_PRINTF
+ VULN_COUNT = 1
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00066/Makefile b/CROMU_00066/Makefile
+index 1c6e85d..b466f8f 100644
+--- a/CROMU_00066/Makefile
++++ b/CROMU_00066/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 1
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00070/Makefile b/CROMU_00070/Makefile
+index 8461b99..98ee78d 100644
+--- a/CROMU_00070/Makefile
++++ b/CROMU_00070/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 2
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS   = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00071/Makefile b/CROMU_00071/Makefile
+index e64b69b..0676996 100644
+--- a/CROMU_00071/Makefile
++++ b/CROMU_00071/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00071
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00072/Makefile b/CROMU_00072/Makefile
+index 14e24f1..150507e 100644
+--- a/CROMU_00072/Makefile
++++ b/CROMU_00072/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00072
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00073/Makefile b/CROMU_00073/Makefile
+index c4c5919..069cbd5 100644
+--- a/CROMU_00073/Makefile
++++ b/CROMU_00073/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00073
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -fblocks
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00076/Makefile b/CROMU_00076/Makefile
+index 4c51528..525cb94 100644
+--- a/CROMU_00076/Makefile
++++ b/CROMU_00076/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00076
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00077/Makefile b/CROMU_00077/Makefile
+index 2e32356..8c16cf7 100644
+--- a/CROMU_00077/Makefile
++++ b/CROMU_00077/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 1
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS   = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00078/Makefile b/CROMU_00078/Makefile
+index 01ac2f4..6c7e6e4 100644
+--- a/CROMU_00078/Makefile
++++ b/CROMU_00078/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00078
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00079/Makefile b/CROMU_00079/Makefile
+index 9d8c451..725ea33 100644
+--- a/CROMU_00079/Makefile
++++ b/CROMU_00079/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -fblocks
+ 
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00082/Makefile b/CROMU_00082/Makefile
+index ac4ce00..95b0508 100644
+--- a/CROMU_00082/Makefile
++++ b/CROMU_00082/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 1
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS   = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00083/Makefile b/CROMU_00083/Makefile
+index 2e77b86..a0ede0f 100644
+--- a/CROMU_00083/Makefile
++++ b/CROMU_00083/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00083
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00084/Makefile b/CROMU_00084/Makefile
+index e6718bb..09731db 100644
+--- a/CROMU_00084/Makefile
++++ b/CROMU_00084/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 1
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ CXXFLAGS   = -fno-exceptions -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00087/Makefile b/CROMU_00087/Makefile
+index 4fe26d6..2bb0872 100644
+--- a/CROMU_00087/Makefile
++++ b/CROMU_00087/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00087
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00088/Makefile b/CROMU_00088/Makefile
+index ecb7bf1..5664750 100644
+--- a/CROMU_00088/Makefile
++++ b/CROMU_00088/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = CROMU
+ SERVICE_ID = 00088
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00092/Makefile b/CROMU_00092/Makefile
+index 9c55d41..ab6209a 100644
+--- a/CROMU_00092/Makefile
++++ b/CROMU_00092/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00092
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00093/Makefile b/CROMU_00093/Makefile
+index 83b3b64..3aaacc7 100644
+--- a/CROMU_00093/Makefile
++++ b/CROMU_00093/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00093
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed 
+ VULN_COUNT = 3
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00094/Makefile b/CROMU_00094/Makefile
+index 243f2fd..4e62aed 100644
+--- a/CROMU_00094/Makefile
++++ b/CROMU_00094/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00094
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed 
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00095/Makefile b/CROMU_00095/Makefile
+index 5c9a2dd..b84ac31 100644
+--- a/CROMU_00095/Makefile
++++ b/CROMU_00095/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00095
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed 
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00096/Makefile b/CROMU_00096/Makefile
+index cd2106c..547858c 100644
+--- a/CROMU_00096/Makefile
++++ b/CROMU_00096/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00096
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed 
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00097/Makefile b/CROMU_00097/Makefile
+index 5c4c573..55272f5 100644
+--- a/CROMU_00097/Makefile
++++ b/CROMU_00097/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00097
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed 
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/CROMU_00098/Makefile b/CROMU_00098/Makefile
+index 8d071a3..7376e0f 100644
+--- a/CROMU_00098/Makefile
++++ b/CROMU_00098/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00098
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed 
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/EAGLE_00004/Makefile b/EAGLE_00004/Makefile
+index b0704ed..118c92a 100755
+--- a/EAGLE_00004/Makefile
++++ b/EAGLE_00004/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = EAGLE
+ SERVICE_ID = 00004
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/EAGLE_00005/Makefile b/EAGLE_00005/Makefile
+index b0a662e..b03c58f 100755
+--- a/EAGLE_00005/Makefile
++++ b/EAGLE_00005/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00005
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00001/Makefile b/KPRCA_00001/Makefile
+index ca35b56..f798f5c 100755
+--- a/KPRCA_00001/Makefile
++++ b/KPRCA_00001/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -Os -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+ POLLS_TESTING_SEED = 1763254697
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00002/Makefile b/KPRCA_00002/Makefile
+index c43e52a..7801c24 100755
+--- a/KPRCA_00002/Makefile
++++ b/KPRCA_00002/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -Os -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+ POLLS_RELEASE_SEED = 2542617775
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00003/Makefile b/KPRCA_00003/Makefile
+index 57b5901..bd1ca54 100755
+--- a/KPRCA_00003/Makefile
++++ b/KPRCA_00003/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -Ofast -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+ POLLS_TESTING_SEED=349507159
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00007/Makefile b/KPRCA_00007/Makefile
+index b9898b5..deee22d 100644
+--- a/KPRCA_00007/Makefile
++++ b/KPRCA_00007/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00007
+ POLLS_RELEASE_SEED = 1597909308
+ CFLAGS     = -Os -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00008/Makefile b/KPRCA_00008/Makefile
+index 26cb465..08578f9 100644
+--- a/KPRCA_00008/Makefile
++++ b/KPRCA_00008/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00008
+ POLLS_RELEASE_SEED = 189673785
+ CFLAGS     = -Os -g -Werror -msse
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00009/Makefile b/KPRCA_00009/Makefile
+index dfb8218..615dd9b 100644
+--- a/KPRCA_00009/Makefile
++++ b/KPRCA_00009/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00009
+ POLLS_RELEASE_SEED = -805564115
+ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00010/Makefile b/KPRCA_00010/Makefile
+index 544fd33..a87101e 100644
+--- a/KPRCA_00010/Makefile
++++ b/KPRCA_00010/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00010
+ CFLAGS     = -O0 -g -Wall
+ POLLS_RELEASE_SEED = 947695443
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00011/Makefile b/KPRCA_00011/Makefile
+index c48f924..70402b2 100644
+--- a/KPRCA_00011/Makefile
++++ b/KPRCA_00011/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00011
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 140296829
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00012/Makefile b/KPRCA_00012/Makefile
+index 18a9d5a..72b028d 100644
+--- a/KPRCA_00012/Makefile
++++ b/KPRCA_00012/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00012
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -1791831965
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00013/Makefile b/KPRCA_00013/Makefile
+index 6944b80..b83e38d 100644
+--- a/KPRCA_00013/Makefile
++++ b/KPRCA_00013/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00013
+ CFLAGS     = -O0 -g -Wall
+ POLLS_RELEASE_SEED = 1900525947
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00014/Makefile b/KPRCA_00014/Makefile
+index 9d44254..b3fb458 100644
+--- a/KPRCA_00014/Makefile
++++ b/KPRCA_00014/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00014
+ CFLAGS     = -Os -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 86421966
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00015/Makefile b/KPRCA_00015/Makefile
+index 5011109..a40f1c3 100644
+--- a/KPRCA_00015/Makefile
++++ b/KPRCA_00015/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = KPRCA
+ SERVICE_ID = 00015
+ CFLAGS     = -Os -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00016/Makefile b/KPRCA_00016/Makefile
+index 8b297f6..9b2363b 100644
+--- a/KPRCA_00016/Makefile
++++ b/KPRCA_00016/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00016
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -1113420046
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00017/Makefile b/KPRCA_00017/Makefile
+index c74ca44..77f1baa 100644
+--- a/KPRCA_00017/Makefile
++++ b/KPRCA_00017/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00017
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -236520787
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00018/Makefile b/KPRCA_00018/Makefile
+index b369b3b..91e56aa 100644
+--- a/KPRCA_00018/Makefile
++++ b/KPRCA_00018/Makefile
+@@ -6,4 +6,4 @@ POLLS_RELEASE_SEED = 259379680
+ NO_CB_DPKG=1
+ NO_CB_EXTENDED_APP=1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00019/Makefile b/KPRCA_00019/Makefile
+index a3b84c7..ed43398 100644
+--- a/KPRCA_00019/Makefile
++++ b/KPRCA_00019/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00019
+ CFLAGS     = -O1 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_TESTING_SEED = -1046949493
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00020/Makefile b/KPRCA_00020/Makefile
+index 4d9138a..c76ba48 100644
+--- a/KPRCA_00020/Makefile
++++ b/KPRCA_00020/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID  = 00020
+ CFLAGS      = -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -423157946
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00021/Makefile b/KPRCA_00021/Makefile
+index e96ef24..6157098 100644
+--- a/KPRCA_00021/Makefile
++++ b/KPRCA_00021/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00021
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -Wall -Wno-unused-variable -Wno-unused-function
+ POLLS_RELEASE_SEED = 952316475
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00022/Makefile b/KPRCA_00022/Makefile
+index 5408338..acc9952 100644
+--- a/KPRCA_00022/Makefile
++++ b/KPRCA_00022/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00022
+ CFLAGS     = -O1 -g -Wall
+ POLLS_RELEASE_SEED = 259379680
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00023/Makefile b/KPRCA_00023/Makefile
+index 0ad161c..8e6198f 100644
+--- a/KPRCA_00023/Makefile
++++ b/KPRCA_00023/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00023
+ CFLAGS     = -O1 -g -Werror -Wno-unused-function -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -514292027
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00024/Makefile b/KPRCA_00024/Makefile
+index 58cd46c..ceae865 100644
+--- a/KPRCA_00024/Makefile
++++ b/KPRCA_00024/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00024
+ CFLAGS     = -O3 -g -Wno-overlength-strings -Wno-packed -DDB_CURRENT -fno-strict-aliasing
+ POLLS_TESTING_SEED = 1804088789
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00025/Makefile b/KPRCA_00025/Makefile
+index 0a66ffd..d3c1fca 100644
+--- a/KPRCA_00025/Makefile
++++ b/KPRCA_00025/Makefile
+@@ -7,4 +7,4 @@ POLLS_TESTING_SEED = -399189653
+ POLLS_RELEASE_COUNT = 1
+ POLLS_RELEASE_SEED = 90
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00026/Makefile b/KPRCA_00026/Makefile
+index 5d60254..9e263af 100644
+--- a/KPRCA_00026/Makefile
++++ b/KPRCA_00026/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00026
+ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -DFILAMENTS
+ POLLS_RELEASE_SEED = 1637181811
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00027/Makefile b/KPRCA_00027/Makefile
+index ef05082..6ca7774 100644
+--- a/KPRCA_00027/Makefile
++++ b/KPRCA_00027/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00027
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 1189828196
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00028/Makefile b/KPRCA_00028/Makefile
+index bf47650..ce4fc70 100644
+--- a/KPRCA_00028/Makefile
++++ b/KPRCA_00028/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00028
+ CFLAGS     = -O -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -49922249
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00029/Makefile b/KPRCA_00029/Makefile
+index bc8310f..f5f1533 100644
+--- a/KPRCA_00029/Makefile
++++ b/KPRCA_00029/Makefile
+@@ -6,4 +6,4 @@ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_SEED = -21028589
+ POLLS_TESTING_MAX_DEPTH = 50
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00030/Makefile b/KPRCA_00030/Makefile
+index f9a58b0..faf6b59 100644
+--- a/KPRCA_00030/Makefile
++++ b/KPRCA_00030/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00030
+ CFLAGS     = -O1 -g -Wall
+ POLLS_RELEASE_SEED = 259379680
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00031/Makefile b/KPRCA_00031/Makefile
+index d59d616..4a86f3e 100644
+--- a/KPRCA_00031/Makefile
++++ b/KPRCA_00031/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00031
+ CFLAGS     = -O2 -Wall -Werror -Wno-unused
+ POLLS_RELEASE_SEED = 27226454
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00032/Makefile b/KPRCA_00032/Makefile
+index 7b00c36..a2ec4d1 100644
+--- a/KPRCA_00032/Makefile
++++ b/KPRCA_00032/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00032
+ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -msse
+ POLLS_TESTING_SEED = 843413816
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00033/Makefile b/KPRCA_00033/Makefile
+index 3235b0a..42089bb 100644
+--- a/KPRCA_00033/Makefile
++++ b/KPRCA_00033/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00033
+ CFLAGS     = -O -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 1980600223
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00034/Makefile b/KPRCA_00034/Makefile
+index 12ed8dc..563bb4b 100644
+--- a/KPRCA_00034/Makefile
++++ b/KPRCA_00034/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -Wuninitialized
+ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_SEED = 1014972524
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00035/Makefile b/KPRCA_00035/Makefile
+index 59705ac..a66cb6f 100644
+--- a/KPRCA_00035/Makefile
++++ b/KPRCA_00035/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00035
+ CFLAGS = -O0 -Werror -Wall -Wno-unused-function -Wno-unused -Wno-compare-distinct-pointer-types -Wno-sometimes-uninitialized
+ POLLS_RELEASE_SEED = -868333550
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00036/Makefile b/KPRCA_00036/Makefile
+index 5e2a06b..4e72f58 100644
+--- a/KPRCA_00036/Makefile
++++ b/KPRCA_00036/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00036
+ CFLAGS     = -O -g -Wall -Wno-unused-function -Wno-unused-variable
+ POLLS_RELEASE_SEED = 1900525947
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00037/Makefile b/KPRCA_00037/Makefile
+index af66f67..0b8ba01 100644
+--- a/KPRCA_00037/Makefile
++++ b/KPRCA_00037/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_SEED = 90138345
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00038/Makefile b/KPRCA_00038/Makefile
+index dad854b..9d9633a 100644
+--- a/KPRCA_00038/Makefile
++++ b/KPRCA_00038/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O2 -g -Werror -Wno-overlength-strings -Wno-packed -Wuninitialized
+ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_SEED = 12873445
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00039/Makefile b/KPRCA_00039/Makefile
+index b11ce92..9cefc9a 100644
+--- a/KPRCA_00039/Makefile
++++ b/KPRCA_00039/Makefile
+@@ -5,4 +5,4 @@ CFLAGS = -g -Ofast -Werror -Wall -Wno-unused-function -Wno-unused -Wno-compare-d
+ POLLS_RELEASE_SEED = -868333550
+ POLLS_RELEASE_COUNT = 0
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00040/Makefile b/KPRCA_00040/Makefile
+index 6aba327..edb91f5 100644
+--- a/KPRCA_00040/Makefile
++++ b/KPRCA_00040/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00040
+ CFLAGS = -g -O0 -Werror -Wall -Wno-unused-function -Wno-unused-variable
+ POLLS_RELEASE_SEED = 1029384756
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00041/Makefile b/KPRCA_00041/Makefile
+index da5b79c..a0fa023 100644
+--- a/KPRCA_00041/Makefile
++++ b/KPRCA_00041/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00041
+ CFLAGS     = -O0 -g -Wall
+ POLLS_RELEASE_SEED = 1900525947
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00042/Makefile b/KPRCA_00042/Makefile
+index ca6e4c3..82b3b49 100644
+--- a/KPRCA_00042/Makefile
++++ b/KPRCA_00042/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00042
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 140296829
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00043/Makefile b/KPRCA_00043/Makefile
+index 7e80ac1..4713fdd 100644
+--- a/KPRCA_00043/Makefile
++++ b/KPRCA_00043/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00043
+ CFLAGS     = -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 1751193365
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00044/Makefile b/KPRCA_00044/Makefile
+index 9ecfa95..fcad82f 100644
+--- a/KPRCA_00044/Makefile
++++ b/KPRCA_00044/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -Wuninitialized
+ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_SEED = 12798375
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00045/Makefile b/KPRCA_00045/Makefile
+index e21c8d0..32fee9a 100644
+--- a/KPRCA_00045/Makefile
++++ b/KPRCA_00045/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00045
+ CFLAGS     = -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 2930732202
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00046/Makefile b/KPRCA_00046/Makefile
+index 69b4dd3..ad8747a 100644
+--- a/KPRCA_00046/Makefile
++++ b/KPRCA_00046/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -Ofast -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_SEED = -1438114493
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00047/Makefile b/KPRCA_00047/Makefile
+index 2f45446..f781c13 100644
+--- a/KPRCA_00047/Makefile
++++ b/KPRCA_00047/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00047
+ CFLAGS = -g -O2 -Werror -Wall
+ POLLS_RELEASE_SEED = 1820982
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00048/Makefile b/KPRCA_00048/Makefile
+index b2a7b6d..15c81ed 100644
+--- a/KPRCA_00048/Makefile
++++ b/KPRCA_00048/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00048
+ CFLAGS = -g -O0 -Wall
+ POLLS_RELEASE_SEED = 1029384756
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00049/Makefile b/KPRCA_00049/Makefile
+index 457a9ab..19191b0 100644
+--- a/KPRCA_00049/Makefile
++++ b/KPRCA_00049/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00049
+ CFLAGS = -g -O3 -Werror -Wall -Wno-unused-function -Wno-unused-variable
+ POLLS_RELEASE_SEED = 092385883
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00050/Makefile b/KPRCA_00050/Makefile
+index 3559e33..7295697 100644
+--- a/KPRCA_00050/Makefile
++++ b/KPRCA_00050/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -Wall -Wno-unuse
+ POLLS_TESTING_COUNT = 1000
+ POLLS_TESTING_SEED = -2091984071
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00051/Makefile b/KPRCA_00051/Makefile
+index 8758f4c..f54bcb6 100644
+--- a/KPRCA_00051/Makefile
++++ b/KPRCA_00051/Makefile
+@@ -5,4 +5,4 @@ TCP_PORT   = 10010
+ CFLAGS     = -O0 -g -Wall
+ POLLS_RELEASE_SEED = 1900525947
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00052/Makefile b/KPRCA_00052/Makefile
+index 7901277..78fafa0 100644
+--- a/KPRCA_00052/Makefile
++++ b/KPRCA_00052/Makefile
+@@ -6,4 +6,4 @@ CXXFLAGS   = -fno-exceptions -fno-rtti
+ CFLAGS     = -O0 -g -Wall -fno-exceptions -fno-rtti
+ POLLS_RELEASE_SEED = 1900525947
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00053/Makefile b/KPRCA_00053/Makefile
+index 6bb5a88..c736be6 100644
+--- a/KPRCA_00053/Makefile
++++ b/KPRCA_00053/Makefile
+@@ -6,4 +6,4 @@ CXXFLAGS   = -fno-exceptions -fno-rtti
+ CFLAGS     = -O0 -g -Wall -fno-exceptions -fno-rtti
+ POLLS_RELEASE_SEED = 1900525947
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00054/Makefile b/KPRCA_00054/Makefile
+index c863000..b7b9376 100644
+--- a/KPRCA_00054/Makefile
++++ b/KPRCA_00054/Makefile
+@@ -4,4 +4,4 @@ SERVICE_ID = 00054
+ CFLAGS     = -g -Wall -Wno-unused-function -fno-exceptions -fno-rtti -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -454027733
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00055/Makefile b/KPRCA_00055/Makefile
+index ec7cfaa..b3579d7 100644
+--- a/KPRCA_00055/Makefile
++++ b/KPRCA_00055/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00055
+ CFLAGS     = -O0 -g -Wno-overlength-strings -Wno-packed -Wall -Wno-unused-variable -Wno-unused-function -Werror
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00056/Makefile b/KPRCA_00056/Makefile
+index 519f30c..f153a66 100644
+--- a/KPRCA_00056/Makefile
++++ b/KPRCA_00056/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00056
+ CFLAGS     = -O2 -g -Werror -Wall
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00057/Makefile b/KPRCA_00057/Makefile
+index cf0c15c..f2b08b6 100644
+--- a/KPRCA_00057/Makefile
++++ b/KPRCA_00057/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00057
+ CFLAGS     = -O0 -g -Werror -Wall
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00058/Makefile b/KPRCA_00058/Makefile
+index ddbb837..e2e4aa9 100644
+--- a/KPRCA_00058/Makefile
++++ b/KPRCA_00058/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00058
+ CFLAGS     = -O1 -fomit-frame-pointer -g -Wall -Werror -Wno-overlength-strings -Wno-packed -Wno-unused-variable -Wno-unused-function
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00059/Makefile b/KPRCA_00059/Makefile
+index c5af4bf..5d0ba4f 100644
+--- a/KPRCA_00059/Makefile
++++ b/KPRCA_00059/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O1 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ POLLS_RELEASE_MAX_DEPTH = 4500
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00060/Makefile b/KPRCA_00060/Makefile
+index f8bcd6f..5348af1 100644
+--- a/KPRCA_00060/Makefile
++++ b/KPRCA_00060/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00060
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00062/Makefile b/KPRCA_00062/Makefile
+index 1953d7d..dab5584 100644
+--- a/KPRCA_00062/Makefile
++++ b/KPRCA_00062/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00062
+ CFLAGS     = -O0 -g -Wno-overlength-strings -Wno-packed -Wall -Wno-typedef-redefinition -Wno-unused-function -Wno-unused-variable -Werror
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00064/Makefile b/KPRCA_00064/Makefile
+index 2864be1..5b1aa5c 100644
+--- a/KPRCA_00064/Makefile
++++ b/KPRCA_00064/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00064
+ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00065/Makefile b/KPRCA_00065/Makefile
+index 4a65fe9..7546eab 100644
+--- a/KPRCA_00065/Makefile
++++ b/KPRCA_00065/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00065
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00068/Makefile b/KPRCA_00068/Makefile
+index 9e02952..179bc10 100644
+--- a/KPRCA_00068/Makefile
++++ b/KPRCA_00068/Makefile
+@@ -5,4 +5,4 @@ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ POLLS_RELEASE_MAX_DEPTH = 2000
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00069/Makefile b/KPRCA_00069/Makefile
+index 7b3eb27..9eb4ad4 100644
+--- a/KPRCA_00069/Makefile
++++ b/KPRCA_00069/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00069
+ CFLAGS     = -O0 -g -Wno-overlength-strings -Wno-packed -Wall -Werror 
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00071/Makefile b/KPRCA_00071/Makefile
+index 8148fd0..856fa75 100644
+--- a/KPRCA_00071/Makefile
++++ b/KPRCA_00071/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00071
+ CFLAGS     = -O2 -g -Wno-overlength-strings -Wno-packed -Wall -Werror 
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00073/Makefile b/KPRCA_00073/Makefile
+index 5da5612..c61e6fd 100644
+--- a/KPRCA_00073/Makefile
++++ b/KPRCA_00073/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00073
+ CFLAGS     = -g -O1 -Werror -Wall
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00074/Makefile b/KPRCA_00074/Makefile
+index 286051d..362ead3 100644
+--- a/KPRCA_00074/Makefile
++++ b/KPRCA_00074/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ VULN_COUNT = 1
+ 
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00075/Makefile b/KPRCA_00075/Makefile
+index 704ae92..65816f2 100644
+--- a/KPRCA_00075/Makefile
++++ b/KPRCA_00075/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -Wall -DDISABLE_
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00077/Makefile b/KPRCA_00077/Makefile
+index 2171f02..12ca0d1 100644
+--- a/KPRCA_00077/Makefile
++++ b/KPRCA_00077/Makefile
+@@ -5,4 +5,4 @@ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00079/Makefile b/KPRCA_00079/Makefile
+index 95b529e..8e4ab49 100644
+--- a/KPRCA_00079/Makefile
++++ b/KPRCA_00079/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00079
+ CFLAGS     = -O1 -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00081/Makefile b/KPRCA_00081/Makefile
+index 61b894f..85c59f1 100644
+--- a/KPRCA_00081/Makefile
++++ b/KPRCA_00081/Makefile
+@@ -5,4 +5,4 @@ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ NO_CB_DPKG = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00086/Makefile b/KPRCA_00086/Makefile
+index 3a673fa..03af49c 100644
+--- a/KPRCA_00086/Makefile
++++ b/KPRCA_00086/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00086
+ CFLAGS     = -O1 -g -Werror -Wno-overlength-strings -Wno-packed -Wall -mstackrealign -DDISABLE_HEAP_GUARD -include src/_defines.h
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00087/Makefile b/KPRCA_00087/Makefile
+index 9602b8e..80733c1 100644
+--- a/KPRCA_00087/Makefile
++++ b/KPRCA_00087/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -include src/_de
+ VULN_COUNT = 1
+ 
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00088/Makefile b/KPRCA_00088/Makefile
+index b3418c4..12ed1e2 100644
+--- a/KPRCA_00088/Makefile
++++ b/KPRCA_00088/Makefile
+@@ -5,4 +5,4 @@ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ POLLS_RELEASE_MAX_DEPTH=1024
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00091/Makefile b/KPRCA_00091/Makefile
+index ba29018..13c4e9d 100644
+--- a/KPRCA_00091/Makefile
++++ b/KPRCA_00091/Makefile
+@@ -5,4 +5,4 @@ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ override LDFLAGS = -nostdlib -static -Ttext=0x90000000
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00093/Makefile b/KPRCA_00093/Makefile
+index 9f7bd44..7585fd1 100644
+--- a/KPRCA_00093/Makefile
++++ b/KPRCA_00093/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00094/Makefile b/KPRCA_00094/Makefile
+index 97ba915..6ef6547 100644
+--- a/KPRCA_00094/Makefile
++++ b/KPRCA_00094/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O3 -g -Werror -Wno-overlength-strings -Wno-packed -DPRINTF_CHAR=59
+ VULN_COUNT = 1
+ POLLS_RELEASE_MAX_DEPTH = 1500
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00097/Makefile b/KPRCA_00097/Makefile
+index 6eb85cf..3fd5935 100644
+--- a/KPRCA_00097/Makefile
++++ b/KPRCA_00097/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O3 -g -Werror -Wall -Wold-style-cast
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00099/Makefile b/KPRCA_00099/Makefile
+index d693a39..fb82a8d 100644
+--- a/KPRCA_00099/Makefile
++++ b/KPRCA_00099/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00100/Makefile b/KPRCA_00100/Makefile
+index d393c7a..aad37ef 100644
+--- a/KPRCA_00100/Makefile
++++ b/KPRCA_00100/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O2 -g -Werror -Wno-overlength-strings -Wno-packed -Wall -Wno-delet
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00101/Makefile b/KPRCA_00101/Makefile
+index beb849e..6b869d0 100644
+--- a/KPRCA_00101/Makefile
++++ b/KPRCA_00101/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O2 -g -Werror -Wno-overlength-strings -Wno-packed -Wall -include s
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00102/Makefile b/KPRCA_00102/Makefile
+index 4672632..d1d6309 100644
+--- a/KPRCA_00102/Makefile
++++ b/KPRCA_00102/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -Wall -include s
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00110/Makefile b/KPRCA_00110/Makefile
+index 385c9a5..a9c670d 100644
+--- a/KPRCA_00110/Makefile
++++ b/KPRCA_00110/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00110
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00111/Makefile b/KPRCA_00111/Makefile
+index 1e7a4e9..5e0627d 100644
+--- a/KPRCA_00111/Makefile
++++ b/KPRCA_00111/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O1 -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00112/Makefile b/KPRCA_00112/Makefile
+index 361d16f..11a2aa2 100644
+--- a/KPRCA_00112/Makefile
++++ b/KPRCA_00112/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -Wno-narrowing -
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00119/Makefile b/KPRCA_00119/Makefile
+index 76bbbfe..ab46d48 100644
+--- a/KPRCA_00119/Makefile
++++ b/KPRCA_00119/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -Oz -g -Werror -Wno-overlength-strings -Wno-packed -Wall
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/KPRCA_00120/Makefile b/KPRCA_00120/Makefile
+index 4f3f46c..b2a66fa 100755
+--- a/KPRCA_00120/Makefile
++++ b/KPRCA_00120/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -Wno-narrowing -
+ CXXFLAGS   = --std=c++11 -fno-exceptions -fno-rtti -DCPLUSPLUS -Dmain=_main
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/LUNGE_00002/Makefile b/LUNGE_00002/Makefile
+index 6bf4677..4b0d9f1 100644
+--- a/LUNGE_00002/Makefile
++++ b/LUNGE_00002/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O0 -g -Wall
+ POLLS_RELEASE_SEED=0
+ POLLS_TESTING_COUNT=0
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/LUNGE_00003/Makefile b/LUNGE_00003/Makefile
+index 4d9c1ed..8979cfd 100755
+--- a/LUNGE_00003/Makefile
++++ b/LUNGE_00003/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00003
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ NO_STRIP = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/LUNGE_00004/Makefile b/LUNGE_00004/Makefile
+index 8450bc0..95fa582 100755
+--- a/LUNGE_00004/Makefile
++++ b/LUNGE_00004/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00004
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ NO_STRIP = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/LUNGE_00005/Makefile b/LUNGE_00005/Makefile
+index 8552c2a..48c69ff 100755
+--- a/LUNGE_00005/Makefile
++++ b/LUNGE_00005/Makefile
+@@ -6,4 +6,4 @@ NO_STRIP = 1
+ POLLS_RELEASE_SEED=0
+ POLLS_TESTING_SEED=0
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00001/Makefile b/NRFIN_00001/Makefile
+index 7b00703..d02cf93 100644
+--- a/NRFIN_00001/Makefile
++++ b/NRFIN_00001/Makefile
+@@ -6,4 +6,4 @@ POLLS_RELEASE_COUNT = 1000
+ POLLS_TESTING_COUNT = 1000
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00003/Makefile b/NRFIN_00003/Makefile
+index 5dcb789..71c096f 100644
+--- a/NRFIN_00003/Makefile
++++ b/NRFIN_00003/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00003
+ CFLAGS     = -g -O0 -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00004/Makefile b/NRFIN_00004/Makefile
+index b5d1f3c..c6f3aaa 100644
+--- a/NRFIN_00004/Makefile
++++ b/NRFIN_00004/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00004
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00005/Makefile b/NRFIN_00005/Makefile
+index 3268448..0ebbb62 100644
+--- a/NRFIN_00005/Makefile
++++ b/NRFIN_00005/Makefile
+@@ -6,4 +6,4 @@ POLLS_RELEASE_COUNT = 1000
+ POLLS_TESTING_COUNT = 1000
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00006/Makefile b/NRFIN_00006/Makefile
+index 540339b..b337e52 100755
+--- a/NRFIN_00006/Makefile
++++ b/NRFIN_00006/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00006
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00007/Makefile b/NRFIN_00007/Makefile
+index 20a2722..b6b1f1e 100644
+--- a/NRFIN_00007/Makefile
++++ b/NRFIN_00007/Makefile
+@@ -6,5 +6,5 @@ POLLS_RELEASE_COUNT = 1000
+ 
+ CFLAGS = -Wno-overlength-strings -Wno-packed -Wno-trigraphs -g
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+ 
+diff --git a/NRFIN_00008/Makefile b/NRFIN_00008/Makefile
+index af1d083..9fb86cf 100644
+--- a/NRFIN_00008/Makefile
++++ b/NRFIN_00008/Makefile
+@@ -6,4 +6,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_TESTING_COUNT = 900
+ POLLS_RELEASE_COUNT = 100
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00009/Makefile b/NRFIN_00009/Makefile
+index 8aea4a3..01d1efe 100644
+--- a/NRFIN_00009/Makefile
++++ b/NRFIN_00009/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00009
+ POLLS_RELEASE_COUNT = 1000
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00010/Makefile b/NRFIN_00010/Makefile
+index 1434044..9290265 100644
+--- a/NRFIN_00010/Makefile
++++ b/NRFIN_00010/Makefile
+@@ -7,4 +7,4 @@ POLLS_TESTING_COUNT = 1000
+ 
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00011/Makefile b/NRFIN_00011/Makefile
+index de0d77c..96075ad 100644
+--- a/NRFIN_00011/Makefile
++++ b/NRFIN_00011/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00011
+ CFLAGS     = -g -O0 -Werror -Wno-overlength-strings -Wno-packed -Wno-array-bounds
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00012/Makefile b/NRFIN_00012/Makefile
+index c906bb6..12feb44 100644
+--- a/NRFIN_00012/Makefile
++++ b/NRFIN_00012/Makefile
+@@ -7,4 +7,4 @@ NO_STRIP = 1
+ POLLS_TESTING_COUNT = 1000
+ POLLS_RELEASE_COUNT = 100
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00013/Makefile b/NRFIN_00013/Makefile
+index 0dadc3d..f23a38f 100644
+--- a/NRFIN_00013/Makefile
++++ b/NRFIN_00013/Makefile
+@@ -7,4 +7,4 @@ POLLS_TESTING_COUNT = 800
+ 
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00014/Makefile b/NRFIN_00014/Makefile
+index 67a3eea..32f3a07 100644
+--- a/NRFIN_00014/Makefile
++++ b/NRFIN_00014/Makefile
+@@ -6,4 +6,4 @@ POLLS_RELEASE_MAX_DEPTH = 750
+ 
+ CFLAGS = -Wno-overlength-strings -Wno-packed -Wno-trigraphs -Wno-switch -g
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00015/Makefile b/NRFIN_00015/Makefile
+index ccb81eb..6a9d51c 100644
+--- a/NRFIN_00015/Makefile
++++ b/NRFIN_00015/Makefile
+@@ -6,4 +6,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = -1766396818
+ POLLS_TESTING_SEED = -908939435
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00016/Makefile b/NRFIN_00016/Makefile
+index 49cba46..c6426e1 100644
+--- a/NRFIN_00016/Makefile
++++ b/NRFIN_00016/Makefile
+@@ -5,4 +5,4 @@ SERVICE_ID = 00016
+ CFLAGS     = -mno-sse -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 1000
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00017/Makefile b/NRFIN_00017/Makefile
+index d01f009..039ef6b 100644
+--- a/NRFIN_00017/Makefile
++++ b/NRFIN_00017/Makefile
+@@ -6,4 +6,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_SEED = 854437448
+ POLLS_TESTING_SEED = 1892282553
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00018/Makefile b/NRFIN_00018/Makefile
+index 774cf8b..9c8f932 100644
+--- a/NRFIN_00018/Makefile
++++ b/NRFIN_00018/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00018
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00019/Makefile b/NRFIN_00019/Makefile
+index 45f2216..9fb1b07 100644
+--- a/NRFIN_00019/Makefile
++++ b/NRFIN_00019/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00019
+ CFLAGS     = -g -O0 -Werror -Wno-overlength-strings -Wno-packed -Wno-int-to-void-pointer-cast
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00020/Makefile b/NRFIN_00020/Makefile
+index 7ba1b4d..b3c152c 100644
+--- a/NRFIN_00020/Makefile
++++ b/NRFIN_00020/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00020
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00021/Makefile b/NRFIN_00021/Makefile
+index 3ce78a6..0c1d08a 100644
+--- a/NRFIN_00021/Makefile
++++ b/NRFIN_00021/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00021
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00022/Makefile b/NRFIN_00022/Makefile
+index 8946e1f..9eb507d 100644
+--- a/NRFIN_00022/Makefile
++++ b/NRFIN_00022/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00022
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00023/Makefile b/NRFIN_00023/Makefile
+index 35cae32..5836a66 100644
+--- a/NRFIN_00023/Makefile
++++ b/NRFIN_00023/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00023
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00024/Makefile b/NRFIN_00024/Makefile
+index 125b276..5ade6bf 100644
+--- a/NRFIN_00024/Makefile
++++ b/NRFIN_00024/Makefile
+@@ -6,4 +6,4 @@ CFLAGS     = -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 1000
+ POLLS_TESTING_COUNT = 1000
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00025/Makefile b/NRFIN_00025/Makefile
+index b4e6c14..86a9bcf 100644
+--- a/NRFIN_00025/Makefile
++++ b/NRFIN_00025/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00025
+ CFLAGS     = -g -O0 -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00026/Makefile b/NRFIN_00026/Makefile
+index e95c31e..e43338a 100644
+--- a/NRFIN_00026/Makefile
++++ b/NRFIN_00026/Makefile
+@@ -7,4 +7,4 @@ CFLAGS     = -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 1
+ POLLS_TESTING_COUNT = 1000
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00027/Makefile b/NRFIN_00027/Makefile
+index b7e985d..4f2d009 100644
+--- a/NRFIN_00027/Makefile
++++ b/NRFIN_00027/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00027
+ CFLAGS     = -O0 -g -Wall -Wextra -Wno-missing-field-initializers -Wno-sign-compare -mno-sse
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00028/Makefile b/NRFIN_00028/Makefile
+index cec1ca7..c2d8407 100644
+--- a/NRFIN_00028/Makefile
++++ b/NRFIN_00028/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00028
+ CFLAGS     = -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00029/Makefile b/NRFIN_00029/Makefile
+index 0c248f3..a475594 100644
+--- a/NRFIN_00029/Makefile
++++ b/NRFIN_00029/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00029
+ CFLAGS     = -O0 -g -Wall -Wextra -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00030/Makefile b/NRFIN_00030/Makefile
+index af6bf37..1b8fb27 100644
+--- a/NRFIN_00030/Makefile
++++ b/NRFIN_00030/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00030
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00032/Makefile b/NRFIN_00032/Makefile
+index 8291564..7834fbc 100644
+--- a/NRFIN_00032/Makefile
++++ b/NRFIN_00032/Makefile
+@@ -7,4 +7,4 @@ CFLAGS     = -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 1
+ POLLS_TESTING_COUNT = 1000
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00033/Makefile b/NRFIN_00033/Makefile
+index a0cbcaf..166a1d8 100644
+--- a/NRFIN_00033/Makefile
++++ b/NRFIN_00033/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00033
+ CFLAGS     = -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00034/Makefile b/NRFIN_00034/Makefile
+index a6502e2..8c14ab1 100644
+--- a/NRFIN_00034/Makefile
++++ b/NRFIN_00034/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00034
+ CFLAGS     = -O0 -g -Wall -Wextra -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00035/Makefile b/NRFIN_00035/Makefile
+index 996bc01..7e6a7bc 100644
+--- a/NRFIN_00035/Makefile
++++ b/NRFIN_00035/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00035
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00036/Makefile b/NRFIN_00036/Makefile
+index df21e01..b70f87f 100644
+--- a/NRFIN_00036/Makefile
++++ b/NRFIN_00036/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00036
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00037/Makefile b/NRFIN_00037/Makefile
+index e4b11b5..ceebe4f 100644
+--- a/NRFIN_00037/Makefile
++++ b/NRFIN_00037/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00037
+ CFLAGS     = -g -O0 -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00038/Makefile b/NRFIN_00038/Makefile
+index 6babda8..98e776a 100644
+--- a/NRFIN_00038/Makefile
++++ b/NRFIN_00038/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00038
+ CFLAGS     = -O0 -g -Wall -Wextra -Wno-overlength-strings -Wno-missing-field-initializers -Wno-sign-compare -Wno-unused-function
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00039/Makefile b/NRFIN_00039/Makefile
+index 06193ea..e92bdd8 100644
+--- a/NRFIN_00039/Makefile
++++ b/NRFIN_00039/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00039
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00040/Makefile b/NRFIN_00040/Makefile
+index 6e19b0c..ed0ee08 100644
+--- a/NRFIN_00040/Makefile
++++ b/NRFIN_00040/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00040
+ CFLAGS     = -g -O0 -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00041/Makefile b/NRFIN_00041/Makefile
+index d1b4d81..ffc78dd 100644
+--- a/NRFIN_00041/Makefile
++++ b/NRFIN_00041/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = NRFIN
+ SERVICE_ID = 00041
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00042/Makefile b/NRFIN_00042/Makefile
+index dce0077..dcb3a01 100644
+--- a/NRFIN_00042/Makefile
++++ b/NRFIN_00042/Makefile
+@@ -7,4 +7,4 @@ CFLAGS     = -O3 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ POLLS_RELEASE_COUNT = 1000
+ POLLS_TESTING_COUNT = 1000
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00043/Makefile b/NRFIN_00043/Makefile
+index 376c88e..c2f56c2 100644
+--- a/NRFIN_00043/Makefile
++++ b/NRFIN_00043/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00043
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00044/Makefile b/NRFIN_00044/Makefile
+index 47364d7..1f034db 100644
+--- a/NRFIN_00044/Makefile
++++ b/NRFIN_00044/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00044
+ CFLAGS     = -O3 -Wall
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00045/Makefile b/NRFIN_00045/Makefile
+index 8f82d93..fff0cb0 100644
+--- a/NRFIN_00045/Makefile
++++ b/NRFIN_00045/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ POLLS_RELEASE_MAX_DEPTH = 500
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00046/Makefile b/NRFIN_00046/Makefile
+index 1d8086b..0283f04 100644
+--- a/NRFIN_00046/Makefile
++++ b/NRFIN_00046/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00046
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00049/Makefile b/NRFIN_00049/Makefile
+index df280a8..b142644 100644
+--- a/NRFIN_00049/Makefile
++++ b/NRFIN_00049/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00049
+ CFLAGS     = -O3 -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00051/Makefile b/NRFIN_00051/Makefile
+index fe2eceb..a9c51ef 100644
+--- a/NRFIN_00051/Makefile
++++ b/NRFIN_00051/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00051
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00052/Makefile b/NRFIN_00052/Makefile
+index a177708..72143fd 100644
+--- a/NRFIN_00052/Makefile
++++ b/NRFIN_00052/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00052
+ CFLAGS     = -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00053/Makefile b/NRFIN_00053/Makefile
+index a5a2dda..8b70a16 100644
+--- a/NRFIN_00053/Makefile
++++ b/NRFIN_00053/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00053
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00054/Makefile b/NRFIN_00054/Makefile
+index 68dfb59..dc43904 100644
+--- a/NRFIN_00054/Makefile
++++ b/NRFIN_00054/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00054
+ CFLAGS     = -O0 -g -mno-sse -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00055/Makefile b/NRFIN_00055/Makefile
+index 666aba3..f29fcd1 100644
+--- a/NRFIN_00055/Makefile
++++ b/NRFIN_00055/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00055
+ CFLAGS     = -O3 -Wall -Werror
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00056/Makefile b/NRFIN_00056/Makefile
+index 99188c3..6bcfa96 100644
+--- a/NRFIN_00056/Makefile
++++ b/NRFIN_00056/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00056
+ CFLAGS     = -O0 -g -fcommon -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00059/Makefile b/NRFIN_00059/Makefile
+index 425a3db..a36a181 100644
+--- a/NRFIN_00059/Makefile
++++ b/NRFIN_00059/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00059
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00061/Makefile b/NRFIN_00061/Makefile
+index 8d3af10..8934033 100644
+--- a/NRFIN_00061/Makefile
++++ b/NRFIN_00061/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -g -Werror -std=c99
+ 
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00063/Makefile b/NRFIN_00063/Makefile
+index e33a964..0aeaa17 100644
+--- a/NRFIN_00063/Makefile
++++ b/NRFIN_00063/Makefile
+@@ -5,4 +5,4 @@ VULN_COUNT = 2
+ 
+ POLLS_RELEASE_MAX_DEPTH = 50
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00064/Makefile b/NRFIN_00064/Makefile
+index 1d20747..129c415 100644
+--- a/NRFIN_00064/Makefile
++++ b/NRFIN_00064/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00064
+ CFLAGS     = -g -Werror -DNDEBUG -std=c99
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00065/Makefile b/NRFIN_00065/Makefile
+index 2921862..7cdb6f8 100644
+--- a/NRFIN_00065/Makefile
++++ b/NRFIN_00065/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00065
+ CFLAGS     = -O0 -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 4
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00066/Makefile b/NRFIN_00066/Makefile
+index c744500..65b4ba6 100644
+--- a/NRFIN_00066/Makefile
++++ b/NRFIN_00066/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00066
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00067/Makefile b/NRFIN_00067/Makefile
+index 5cc071e..3a0abe4 100644
+--- a/NRFIN_00067/Makefile
++++ b/NRFIN_00067/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00067
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 9
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00069/Makefile b/NRFIN_00069/Makefile
+index dede09c..a452577 100644
+--- a/NRFIN_00069/Makefile
++++ b/NRFIN_00069/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00069
+ CFLAGS     = -g -Werror -DNDEBUG
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00071/Makefile b/NRFIN_00071/Makefile
+index fe0d2cc..b14ccc7 100644
+--- a/NRFIN_00071/Makefile
++++ b/NRFIN_00071/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00071
+ CFLAGS     = -g -Wall -Wextra -pedantic -Werror -Wshadow -Wstrict-overflow -fpack-struct=32 -mstack-alignment=64 -mstackrealign -Wall -Wno-overlength-strings -Wno-packed -Wno-sign-compare -Wno-variadic-macros -fPIE
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00072/Makefile b/NRFIN_00072/Makefile
+index f5b3d48..455fd4c 100644
+--- a/NRFIN_00072/Makefile
++++ b/NRFIN_00072/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00072
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00073/Makefile b/NRFIN_00073/Makefile
+index 83c41e4..2313f8c 100644
+--- a/NRFIN_00073/Makefile
++++ b/NRFIN_00073/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00073
+ CFLAGS     = -g -O0
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00074/Makefile b/NRFIN_00074/Makefile
+index 2993c83..fb97a52 100644
+--- a/NRFIN_00074/Makefile
++++ b/NRFIN_00074/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00074
+ CFLAGS     = -g -Werror -DNDEBUG
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00075/Makefile b/NRFIN_00075/Makefile
+index db2fbe8..b9c54ec 100644
+--- a/NRFIN_00075/Makefile
++++ b/NRFIN_00075/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00075
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00076/Makefile b/NRFIN_00076/Makefile
+index 5547141..fc4362d 100644
+--- a/NRFIN_00076/Makefile
++++ b/NRFIN_00076/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00076
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00077/Makefile b/NRFIN_00077/Makefile
+index 473a2df..f2e7073 100644
+--- a/NRFIN_00077/Makefile
++++ b/NRFIN_00077/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00077
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 1
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00078/Makefile b/NRFIN_00078/Makefile
+index cea63a0..d1f6ebc 100644
+--- a/NRFIN_00078/Makefile
++++ b/NRFIN_00078/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00078
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00079/Makefile b/NRFIN_00079/Makefile
+index f8a7981..f6a88b3 100644
+--- a/NRFIN_00079/Makefile
++++ b/NRFIN_00079/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00079
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/NRFIN_00080/Makefile b/NRFIN_00080/Makefile
+index b33b928..1ee7288 100644
+--- a/NRFIN_00080/Makefile
++++ b/NRFIN_00080/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00080
+ CFLAGS     = -g -Werror
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/TNETS_00002/Makefile b/TNETS_00002/Makefile
+index d940a97..6319f3b 100755
+--- a/TNETS_00002/Makefile
++++ b/TNETS_00002/Makefile
+@@ -6,4 +6,4 @@ CFLAGS     	= -O0 -g -Wall -fno-exceptions -fno-rtti
+ POLLS_RELEASE_SEED=0
+ POLLS_TESTING_COUNT=0
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00001/Makefile b/YAN01_00001/Makefile
+index 86cbbce..fc21105 100644
+--- a/YAN01_00001/Makefile
++++ b/YAN01_00001/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = YAN01
+ SERVICE_ID = 00001
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00002/Makefile b/YAN01_00002/Makefile
+index 02caea6..a7e7be0 100644
+--- a/YAN01_00002/Makefile
++++ b/YAN01_00002/Makefile
+@@ -5,4 +5,4 @@ CFLAGS     = -O0 -g -Wall
+ POLLS_RELEASE_SEED=0
+ POLLS_TESTING_COUNT=0
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00003/Makefile b/YAN01_00003/Makefile
+index a78d5b9..9b73a3e 100644
+--- a/YAN01_00003/Makefile
++++ b/YAN01_00003/Makefile
+@@ -2,4 +2,4 @@ AUTHOR_ID  = YAN01
+ SERVICE_ID = 00003
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00007/Makefile b/YAN01_00007/Makefile
+index 0e5e0cf..e7339d3 100644
+--- a/YAN01_00007/Makefile
++++ b/YAN01_00007/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = YAN01
+ SERVICE_ID = 00007
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed -fno-rtti
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00009/Makefile b/YAN01_00009/Makefile
+index c821415..1e912a2 100644
+--- a/YAN01_00009/Makefile
++++ b/YAN01_00009/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = YAN01
+ SERVICE_ID = 00009
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00010/Makefile b/YAN01_00010/Makefile
+index d65360a..220cbee 100644
+--- a/YAN01_00010/Makefile
++++ b/YAN01_00010/Makefile
+@@ -3,4 +3,4 @@ POLLS_TESTING_SEED= -962093213
+ AUTHOR_ID  = YAN01
+ SERVICE_ID = 00010
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00011/Makefile b/YAN01_00011/Makefile
+index a13612c..e7458c6 100644
+--- a/YAN01_00011/Makefile
++++ b/YAN01_00011/Makefile
+@@ -4,4 +4,4 @@ AUTHOR_ID  = YAN01
+ SERVICE_ID = 00011
+ CFLAGS = -g
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00012/Makefile b/YAN01_00012/Makefile
+index c3b3148..68b0dbb 100644
+--- a/YAN01_00012/Makefile
++++ b/YAN01_00012/Makefile
+@@ -3,4 +3,4 @@ POLLS_TESTING_SEED= 2001352444
+ AUTHOR_ID  = YAN01
+ SERVICE_ID = 00012
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/YAN01_00015/bin/YAN01_00015 b/YAN01_00015/bin/YAN01_00015
+deleted file mode 100755
+index 8f46b0c..0000000
+Binary files a/YAN01_00015/bin/YAN01_00015 and /dev/null differ
+diff --git a/YAN01_00015/bin/YAN01_00015_patched b/YAN01_00015/bin/YAN01_00015_patched
+deleted file mode 100755
+index 2f8f76d..0000000
+Binary files a/YAN01_00015/bin/YAN01_00015_patched and /dev/null differ
+diff --git a/YAN01_00015/pov/pov_1.pov b/YAN01_00015/pov/pov_1.pov
+deleted file mode 100755
+index 3bc7f1d..0000000
+Binary files a/YAN01_00015/pov/pov_1.pov and /dev/null differ
+diff --git a/YAN01_00015/pov/pov_2.pov b/YAN01_00015/pov/pov_2.pov
+deleted file mode 100755
+index e7feaa0..0000000
+Binary files a/YAN01_00015/pov/pov_2.pov and /dev/null differ
+diff --git a/YAN01_00015/pov/pov_3.pov b/YAN01_00015/pov/pov_3.pov
+deleted file mode 100755
+index 5b1122d..0000000
+Binary files a/YAN01_00015/pov/pov_3.pov and /dev/null differ
+diff --git a/YAN01_00015/support/dumphelper.pyc b/YAN01_00015/support/dumphelper.pyc
+index dbf38c3..0589a71 100644
+Binary files a/YAN01_00015/support/dumphelper.pyc and b/YAN01_00015/support/dumphelper.pyc differ
+diff --git a/YAN01_00016/Makefile b/YAN01_00016/Makefile
+index fb2e3e2..c46db8a 100644
+--- a/YAN01_00016/Makefile
++++ b/YAN01_00016/Makefile
+@@ -4,4 +4,4 @@ CFLAGS     = -O0 -g -Wall
+ 
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
+diff --git a/service-template/Makefile b/service-template/Makefile
+index ec3b572..95000bd 100644
+--- a/service-template/Makefile
++++ b/service-template/Makefile
+@@ -3,4 +3,4 @@ SERVICE_ID = 00001
+ CFLAGS     = -O0 -g -Werror -Wno-overlength-strings -Wno-packed
+ VULN_COUNT = 2
+ 
+-include /usr/share/cb-testing/cgc-cb.mk
++include ../../single-mk
