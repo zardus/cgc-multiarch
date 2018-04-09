@@ -1,0 +1,32 @@
+HEADERS = $(wildcard src/*.h lib/*.h include/*.h ../../libcgc/*.h)
+SOURCES = $(wildcard src/*.c lib/*.c src/*.cc lib/*.cc ../../libcgc/*.c)
+OBJECTSCC = $(SOURCES:.cc=.o)
+OBJECTS = $(OBJECTSCC:.c=.o)
+CFLAGS:=$(filter-out -Werror,$(CFLAGS))
+CFLAGS:=$(filter-out -Oz,$(CFLAGS))
+CFLAGS += -I src -I lib -I include -I ../../libcgc -fno-builtin -nostdlib -nodefaultlibs -nostartfiles
+# old filters: -Wno-int-to-pointer-cast -Wno-pointer-to-int-cast -Wno-enum-compare -Wno-logical-not-parentheses -Wno-strict-aliasing
+CXXFLAGS += $(CFLAGS) -fpermissive
+MACHINE ?= x86_64-linux-gnu
+CC=$(MACHINE)-gcc
+BINDIR = ../../bins/$(MACHINE)
+BINNAME = $(AUTHOR_ID)_$(SERVICE_ID)
+BINPATH = $(BINDIR)/$(BINNAME)
+
+$(BINPATH): $(OBJECTS)
+	mkdir -p $(shell dirname $(BINPATH))
+	$(CC) -nostdlib -o $@ $(OBJECTS) -lm -lc
+
+.c.o:
+	@echo "Compiling "$<"..."
+	@$(CC) $(CFLAGS) -c $< -o $@
+	@echo "... compiled "$<" successfully!"
+
+.cc.o:
+	@echo "Compiling "$<"..."
+	@$(CC) $(CXXFLAGS) -c $< -o $@
+	@echo "... compiled "$<" successfully!"
+
+clean:
+	rm -f $(OBJECTS) $(BINPATH)
+
