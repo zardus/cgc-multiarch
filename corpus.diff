@@ -2469,29 +2469,6 @@ index c3b3148..68b0dbb 100644
  
 -include /usr/share/cb-testing/cgc-cb.mk
 +include ../../single-mk
-diff --git a/YAN01_00015/bin/YAN01_00015 b/YAN01_00015/bin/YAN01_00015
-deleted file mode 100755
-index 8f46b0c..0000000
-Binary files a/YAN01_00015/bin/YAN01_00015 and /dev/null differ
-diff --git a/YAN01_00015/bin/YAN01_00015_patched b/YAN01_00015/bin/YAN01_00015_patched
-deleted file mode 100755
-index 2f8f76d..0000000
-Binary files a/YAN01_00015/bin/YAN01_00015_patched and /dev/null differ
-diff --git a/YAN01_00015/pov/pov_1.pov b/YAN01_00015/pov/pov_1.pov
-deleted file mode 100755
-index 3bc7f1d..0000000
-Binary files a/YAN01_00015/pov/pov_1.pov and /dev/null differ
-diff --git a/YAN01_00015/pov/pov_2.pov b/YAN01_00015/pov/pov_2.pov
-deleted file mode 100755
-index e7feaa0..0000000
-Binary files a/YAN01_00015/pov/pov_2.pov and /dev/null differ
-diff --git a/YAN01_00015/pov/pov_3.pov b/YAN01_00015/pov/pov_3.pov
-deleted file mode 100755
-index 5b1122d..0000000
-Binary files a/YAN01_00015/pov/pov_3.pov and /dev/null differ
-diff --git a/YAN01_00015/support/dumphelper.pyc b/YAN01_00015/support/dumphelper.pyc
-index dbf38c3..0589a71 100644
-Binary files a/YAN01_00015/support/dumphelper.pyc and b/YAN01_00015/support/dumphelper.pyc differ
 diff --git a/YAN01_00016/Makefile b/YAN01_00016/Makefile
 index fb2e3e2..c46db8a 100644
 --- a/YAN01_00016/Makefile
